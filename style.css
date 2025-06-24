@@ -1,0 +1,45 @@
+body {
+  background: url('http://www.pixelstalk.net/wp-content/uploads/2016/03/Mountains-winter-wallpaper-HD-free.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+.about-background {
+  background-image: url('https://wallpaperaccess.com/full/1431622.jpg'); /* Replace with your actual image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; /* Makes sure it covers the full screen */
+  color: rgb(0, 0, 0); /* Optional: makes text readable */
+  padding: 60px 20px;
+}
+.about-section {
+  background: linear-gradient(to bottom, #f9fbff, #e1ecf7);
+  color: #333;
+}
+
+.about-section h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #2c3e50;
+}
+
+.about-section h4 {
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.about-section p, .about-section li {
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+.hotair-highlight {
+  background: url('images/hotair.jpg') no-repeat center center/cover;
+  padding: 60px 20px;
+  color: #ffffff; /* Set text color here */
+  text-shadow: 1px 1px 3px #000000; /* Optional: improve readability */
+}
+
+.hotair-highlight h2,
+.hotair-highlight p,
+.hotair-highlight li {
+  color: #050404; /* Consistent white color for all text elements */
+}
